@@ -8,4 +8,4 @@ install:
 - mvn org.jetbrains.kotlin:kotlin-maven-plugin:1.2.30:compile
 - mvn install
 script:
-- "./aws-upload"
+- "./aws-upload.sh"

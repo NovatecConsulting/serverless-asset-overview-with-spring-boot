@@ -1,0 +1,9 @@
+git:
+  repositoryUrl: "https://github.com/nt-ca-aqe/asset-overview-data.git"
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    suffix: .html
+    enabled: true
+

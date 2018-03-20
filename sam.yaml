@@ -5,10 +5,11 @@ Resources:
   ServerlessAssetOverviewFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: ServerlessAssetOverview_SpringBoot
       Handler: de.novatec.aqe.StreamLambdaHandler::handleRequest
       Runtime: java8
       CodeUri: target/serverless-asset-overview-1.0-SNAPSHOT.jar
-      MemorySize: 1024
+      MemorySize: 256
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 30
       Events:

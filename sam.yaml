@@ -10,7 +10,7 @@ Resources:
       Runtime: java8
       CodeUri: target/serverless-asset-overview-1.0-SNAPSHOT.jar
       MemorySize: 256
-      Role: lambda_basic_execution
+      Role: arn:aws:iam::292384238617:role/lambda_basic_execution
       Timeout: 30
       Events:
         GetResource:

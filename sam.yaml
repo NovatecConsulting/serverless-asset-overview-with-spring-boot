@@ -9,7 +9,7 @@ Resources:
       Handler: de.novatec.aqe.StreamLambdaHandler::handleRequest
       Runtime: java8
       CodeUri: target/serverless-asset-overview-1.0-SNAPSHOT.jar
-      MemorySize: 512
+      MemorySize: 1024
       Role: arn:aws:iam::292384238617:role/lambda_basic_execution
       Timeout: 30
       Events:
